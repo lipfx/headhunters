@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.spacing1 {
+  width: 100%;
+  background-color: rgb(150, 55, 55);
+  height: 75px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Divided into 6 equal parts */
+}
+
+.spacing1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.spacing1 button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+
+
+.spacing2 {
+  width: 100%;
+    background-color: rgb(27, 25, 25);
+    height: 800px;
+    display: block;
+}
+
+.spacing3 {
+  width: 100%;
+    background-color: rgb(169, 201, 30);
+    height: 75px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacing4 {
+  width: 100%;
+    background-color: rgb(35, 148, 241);
+    height: 800px;
+    display: block;
+}
+
