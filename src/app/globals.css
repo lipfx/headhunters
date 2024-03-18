@@ -81,3 +81,21 @@ body {
     display: block;
 }
 
+.spacing5 {
+  width: 100%;
+    background-color: rgb(169, 201, 30);
+    height: 75px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 75%; 
+  margin-top: 3%;
+}
