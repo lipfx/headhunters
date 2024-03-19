@@ -42,6 +42,8 @@ body {
   grid-template-columns: repeat(6, 1fr); /* Divided into 6 equal parts */
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  margin-bottom: 50px;
 }
 
 .spacing1 button {

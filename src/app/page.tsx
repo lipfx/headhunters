@@ -11,11 +11,11 @@ export default function Home() {
     <>
       <div className="spacing1">
         <button className="">HOME</button>
-        <button className="">PAGE 1</button>
-        <button className="">PAGE 2</button>
-        <button className="">PAGE 3</button>
-        <button className="">PAGE 4</button>
-        <button className="">PAGE 5</button>
+        <button className="">STORY</button>
+        <button className="">GAMEPLAY</button>
+        <button className="">MARKETPLACE</button>
+        <button className="">MEDIA</button>
+        <button className="">CONTACT</button>
 
     
         
