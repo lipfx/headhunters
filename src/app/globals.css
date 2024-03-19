@@ -33,11 +33,15 @@ body {
 }
 
 .spacing1 {
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: rgb(150, 55, 55);
-  height: 75px;
+  height: 45px;
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* Divided into 6 equal parts */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .spacing1 button {
@@ -99,3 +103,5 @@ body {
   height: 75%; 
   margin-top: 3%;
 }
+
+
