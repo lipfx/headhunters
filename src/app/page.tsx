@@ -78,7 +78,7 @@ export default function Home() {
       <div className='spacing5'>
 
         <p>Contact info: e-mail: </p> 
-        <button>headhunters@gmail.com</button>
+        <button className="bcolor">headhunters@gmail.com</button>
         
       </div>
     </>
