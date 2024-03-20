@@ -21,23 +21,43 @@ export default function Home() {
         
       </div>
       <div className='spacing2'>
-        <Image src={HH} alt="Example GIF" />
-        <p>PAGE</p>
+        <Image src={HH} alt="picture" />
+        <p></p>
       </div>
+
+
+
       <div className='spacing3'>
-        <button>CLICK 2 SCROLL</button>
+
+        <button className="">CARD 1</button>
+        <button className="">CARD 2</button>
+        <button className="">CARD 3</button>
+        <button className="">CARD 4</button>
       </div>
-      <div className='spacing4' id='page1'>
+
+
+
+      <div className='spacing4'>
         
-        <p>PAGE 1</p>
-        <p>ja sam pr0 </p>
-        <Image className='position' src={HH2} alt="Your GIF" />
-
-    
-
+      <button className="">SOCIALS</button>
+      <button>Facebook</button>
+      <button>X</button>
+      <button>Discord</button>
+      <button>Instagram</button>
+      <button>Soundcloud</button>
+      
       </div>
+
+      <div className="imageContainer">
+      <Image className='gifposition' src={HH2} alt="gif" />
+      <Image className='gifposition' src={HH2} alt="gif" />
+      <Image className='gifposition' src={HH2} alt="gif" />
+      </div>
+
+
       <div className='spacing5'>
-        <button>back 2 top #1 BRAH</button>
+        <p>Contact info: e-mail: headhunters@gmail.com</p>
+        <button></button>
         <p></p>
       </div>
     </>
