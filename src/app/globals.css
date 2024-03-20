@@ -163,3 +163,7 @@ body {
   padding-left: 35px;
   display: flex;
 }
+
+p {
+  margin-right: 5px; /* Adjust as needed */
+}
