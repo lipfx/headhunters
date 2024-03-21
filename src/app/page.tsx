@@ -21,7 +21,7 @@ export default function Home() {
 
         <button className="">HOME</button>
         <button className="">STORY</button>
-        <button className="">GAMEPLAY</button>
+        <button className="">NEWS</button>
         <button className="">MARKETPLACE</button>
         <button className="">MEDIA</button>
         <button className="">CONTACT</button>
@@ -79,6 +79,11 @@ export default function Home() {
 
         <p>Contact info: e-mail: </p> 
         <button className="bcolor">headhunters@gmail.com</button>
+        <p>Support & Donation adress:</p>
+        <button className="bcolor">BTC-Network(BTC): 13UQWvyeZdsWu9syK2qDQaUfTUhReFc9BV</button>
+        <button className="bcolor">USDT-Network(Polygon): 0x6E59866C5d64f5Aea3B2608a7611a14f3A0E3663</button>
+
+        <h1 className="smaller-h1">TM & © 2024. All Rights Reserved. HEADHUNTERS-Used with permission by HH Studio.</h1>
         
       </div>
     </>
