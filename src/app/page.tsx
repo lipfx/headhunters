@@ -49,11 +49,11 @@ export default function Home() {
       <div className='spacing4'>
         
         <button className="">SOCIALS</button>
-        <button>Facebook</button>
+        <button>FACEBOOK</button>
         <button>X</button>
-        <button>Discord</button>
-        <button>Instagram</button>
-        <button>Soundcloud</button>
+        <button>DISCORD</button>
+        <button>INSTAGRAM</button>
+        <button>SOUNDCLOUD</button>
       
       </div>
 
