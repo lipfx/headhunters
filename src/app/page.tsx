@@ -9,6 +9,17 @@ import HH5 from './ezgif.com-video-to-gif_5.gif';
 import HH6 from './ezgif.com-video-to-gif.gif';
 import HH7 from './ezgif.com-video-to-gif_1.gif';
 
+// import ITEMS from './data.js';
+
+function ITEMS() {
+  return <li>
+    <h3>TITLE</h3>
+    <p>DESCRIPTION</p>
+  </li>
+}
+
+const reactDescriptions = ['5 euro ', '10 euro', '20 euro'];
+
 
 
 export default function Home() {
@@ -41,7 +52,24 @@ export default function Home() {
         <button className="">CARD 1</button>
         <button className="">CARD 2</button>
         <button className="">CARD 3</button>
-        <button className="">CARD 4</button>
+
+        <section>
+        <h2>ITEMS</h2>
+        <ul>
+          <ITEMS />
+        </ul>
+        </section>
+        
+
+
+
+{/*         
+        <ul>
+        <ITEMS 
+        title={ITEMS[1].title}
+        />
+
+        </ul> */}
 
       </div>
 
