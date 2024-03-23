@@ -1,4 +1,4 @@
-export const ITEMS = [
+export const MARKET_NAMES = [
 
     {
         title: 'Item One',
@@ -7,11 +7,17 @@ export const ITEMS = [
     },
     {
         title: 'Item Two',
-        desciption: '10 euro',
+        description: '10 euro',
     },
+
     {
         title: 'Item Three',
-        desciption: '20 euro',
+        description: '20 euro',
+    },
+
+    {
+        title: 'Item Four',
+        description: '50 euro',
     },
 
 

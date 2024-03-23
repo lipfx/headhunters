@@ -9,23 +9,27 @@ import HH5 from './ezgif.com-video-to-gif_5.gif';
 import HH6 from './ezgif.com-video-to-gif.gif';
 import HH7 from './ezgif.com-video-to-gif_1.gif';
 
-// import ITEMS from './data.js';
+import { MARKET_NAMES } from './data.js';
 
-function ITEMS() {
-  return <li>
-    <h3>TITLE</h3>
-    <p>DESCRIPTION</p>
-  </li>
+const reactDescriptions = ['5 euro ', '10 euro', '20 euro', '50 euro'];
+
+// function genRandomInt(max) {
+//   return Math.floor(Math.random()*  (max + 1));
+// }
+
+function Items({title, description}) {
+  return (
+    <header>
+      
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </header>
+  );
 }
-
-const reactDescriptions = ['5 euro ', '10 euro', '20 euro'];
 
 
 
 export default function Home() {
-
- 
-
   return (
     <>
       <div className="spacing1">
@@ -49,27 +53,13 @@ export default function Home() {
 
       <div className='spacing3'>
 
-        <button className="">CARD 1</button>
-        <button className="">CARD 2</button>
-        <button className="">CARD 3</button>
-
-        <section>
-        <h2>ITEMS</h2>
-        <ul>
-          <ITEMS />
-        </ul>
-        </section>
-        
-
-
-
-{/*         
-        <ul>
-        <ITEMS 
-        title={ITEMS[1].title}
+        <Items 
+          title={MARKET_NAMES[0].title}
+          description={MARKET_NAMES[0].description}
         />
-
-        </ul> */}
+        <Items {...MARKET_NAMES[1]}/>  
+        <Items {...MARKET_NAMES[2]}/>
+        <Items {...MARKET_NAMES[3]}/>
 
       </div>
 
