@@ -9,12 +9,27 @@ import HH5 from './ezgif.com-video-to-gif_5.gif';
 import HH6 from './ezgif.com-video-to-gif.gif';
 import HH7 from './ezgif.com-video-to-gif_1.gif';
 
+import { MARKET_NAMES } from './data.js';
+
+const reactDescriptions = ['5 euro ', '10 euro', '20 euro', '50 euro'];
+
+// function genRandomInt(max) {
+//   return Math.floor(Math.random()*  (max + 1));
+// }
+
+function Items({title, description}) {
+  return (
+    <header>
+      
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </header>
+  );
+}
+
 
 
 export default function Home() {
-
- 
-
   return (
     <>
       <div className="spacing1">
@@ -38,10 +53,13 @@ export default function Home() {
 
       <div className='spacing3'>
 
-        <button className="">CARD 1</button>
-        <button className="">CARD 2</button>
-        <button className="">CARD 3</button>
-        <button className="">CARD 4</button>
+        <Items 
+          title={MARKET_NAMES[0].title}
+          description={MARKET_NAMES[0].description}
+        />
+        <Items {...MARKET_NAMES[1]}/>  
+        <Items {...MARKET_NAMES[2]}/>
+        <Items {...MARKET_NAMES[3]}/>
 
       </div>
 
