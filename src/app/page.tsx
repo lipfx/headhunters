@@ -11,37 +11,23 @@ import HH7 from './ezgif.com-video-to-gif_1.gif';
 
 import { MARKET_NAMES } from './data.js';
 
-const reactDescriptions = ['5 euro ', '10 euro', '20 euro', '50 euro'];
-
-// function genRandomInt(max) {
-//   return Math.floor(Math.random()*  (max + 1));
-// }
-
-function Items({title, description}) {
-  return (
-    <header>
-      
-      <h1>{title}</h1>
-      <p>{description}</p>
-    </header>
-  );
-}
-
+import Items from './components/Items.jsx';
+import TabButton from './components/TabButton';
 
 
 export default function Home() {
   return (
     <>
-      <div className="spacing1">
+        <menu className="spacing1">
 
-        <button className="">HOME</button>
-        <button className="">STORY</button>
-        <button className="">NEWS</button>
-        <button className="">MARKETPLACE</button>
-        <button className="">MEDIA</button>
-        <button className="">CONTACT</button>
-       
-      </div>
+          <TabButton>HOME</TabButton>
+          <TabButton>STORY</TabButton>
+          <TabButton>NEWS</TabButton>
+          <TabButton>MARKETPLACE</TabButton>
+          <TabButton>MEDIA</TabButton>
+          <TabButton>CONTACT</TabButton>
+
+        </menu>
 
 
       <div className='spacing2'>
