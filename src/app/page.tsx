@@ -9,11 +9,12 @@ import HH5 from './ezgif.com-video-to-gif_5.gif';
 import HH6 from './ezgif.com-video-to-gif.gif';
 import HH7 from './ezgif.com-video-to-gif_1.gif';
 
+import imageFb from './fb.png';
+
 import { MARKET_NAMES } from './data.js';
 
 import Items from './components/Items.jsx';
 import TabButton from './components/TabButton';
-
 
 export default function Home() {
   return (
@@ -53,7 +54,10 @@ export default function Home() {
       <div className='spacing4'>
         
         <button className="">SOCIALS</button>
-        <button>FACEBOOK</button>
+        <button>
+        <Image src={imageFb} alt="Facebook Logo" className="Icons"/>
+          
+        </button>
         <button>X</button>
         <button>DISCORD</button>
         <button>INSTAGRAM</button>
