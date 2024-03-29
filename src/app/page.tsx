@@ -10,6 +10,10 @@ import HH6 from './ezgif.com-video-to-gif.gif';
 import HH7 from './ezgif.com-video-to-gif_1.gif';
 
 import imageFb from './fb.png';
+import imageX from './x.png';
+import imageDc from './dc.png';
+import imageInsta from './insta.png';
+import imageSc from './sc.png';
 
 import { MARKET_NAMES } from './data.js';
 
@@ -54,14 +58,25 @@ export default function Home() {
       <div className='spacing4'>
         
         <button className="">SOCIALS</button>
-        <button>
-        <Image src={imageFb} alt="Facebook Logo" className="Icons"/>
-          
-        </button>
-        <button>X</button>
-        <button>DISCORD</button>
-        <button>INSTAGRAM</button>
-        <button>SOUNDCLOUD</button>
+          <button>
+            <Image src={imageFb} alt="Fb Logo" className="Icons"/>
+          </button>
+        
+          <button>
+            <Image src={imageX} alt="X Logo" className="Icons"/>
+          </button>
+
+          <button>
+            <Image src={imageDc} alt="Dc Logo" className="Icons"/>
+          </button>
+
+          <button>
+            <Image src={imageInsta} alt="Insta Logo" className="Icons"/>
+          </button>
+
+          <button>
+            <Image src={imageSc} alt="Sc Logo" className="Icons"/>
+          </button>
       
       </div>
 
