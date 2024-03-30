@@ -1,19 +1,19 @@
 import Image from "next/image";
-import HH from './HH.png';
-import HH2 from './HH2.png';
-import HH3 from './HH3.png';
-import HH4 from './HH4.png';
+import HH from './pictures/HH.png';
+import HH2 from './pictures/HH2.png';
+import HH3 from './pictures/HH3.png';
+import HH4 from './pictures/HH4.png';
 
 
-import HH5 from './ezgif.com-video-to-gif_5.gif';
-import HH6 from './ezgif.com-video-to-gif.gif';
-import HH7 from './ezgif.com-video-to-gif_1.gif';
+import HH5 from './gifs/ezgif.com-video-to-gif_5.gif';
+import HH6 from './gifs/ezgif.com-video-to-gif.gif';
+import HH7 from './gifs/ezgif.com-video-to-gif_1.gif';
 
-import imageFb from './fb.png';
-import imageX from './x.png';
-import imageDc from './dc.png';
-import imageInsta from './insta.png';
-import imageSc from './sc.png';
+import imageFb from './logos/fb.png';
+import imageX from './logos/x.png';
+import imageDc from './logos/dc.png';
+import imageInsta from './logos/insta.png';
+import imageSc from './logos/sc.png';
 
 import { MARKET_NAMES } from './data.js';
 
